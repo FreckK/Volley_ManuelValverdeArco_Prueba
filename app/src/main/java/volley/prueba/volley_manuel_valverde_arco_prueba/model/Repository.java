@@ -105,7 +105,7 @@ public class Repository {
             @Override
             public void onResponse(JSONObject response) {
                 try {
-                    estaEliminado[0] = response.getBoolean("estaActualizado");
+                    estaEliminado[0] = response.getBoolean("estaEliminado");
                     Log.d("response", "Resultado del delete: " + response.getBoolean("estaEliminado"));
                 } catch (JSONException e) {
                     e.printStackTrace();
