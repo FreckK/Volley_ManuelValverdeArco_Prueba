@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Volley_Manuel-Valverde-Arco_Prueba</string>
+    <string name="select">select</string>
+    <string name="update">update</string>
+    <string name="delete">delete</string>
+    <string name="insert">insert</string>
+</resources>
